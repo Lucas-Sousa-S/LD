@@ -20,8 +20,6 @@
 </p>
 
 
-- Lista do AVA
- - [HDLBits — Verilog Practice](hdlbits)
 
 - HDL BIts nada mais é que uma coleção de pequenos exercícios de design de circuitos para praticar o design de hardware digital usando a Verilog Hardware Description Language (HDL). Problemas anteriores seguem um estilo tutorial, enquanto problemas posteriores desafiarão cada vez mais suas habilidades de design de circuito.
  - [HDLBits — Verilog Practice](hdlbits)
