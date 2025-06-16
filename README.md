@@ -13,8 +13,8 @@
  `Aqui estão os meus exercícios de verilog pelo HDLBits`
 Tópico       | Meus Arquivos | Link HDLBits
 :----------- | :----: | :----:
-Vetores		|  [[Vector 0](hdl/Vetores)]   | [[0]([hdl/Vetores](https://hdlbits.01xz.net/wiki/Vector0))] 
-Vetores  |  [[Vector in more detail](hdl/Vetores)] |  [[01]([hdl/Vetores](https://hdlbits.01xz.net/wiki/Vector1))]
+Vetores		|  [[Vector 0](hdl/Vetores)]   | [[0](https://hdlbits.01xz.net/wiki/Vector0)] 
+Vetores  |  [[Vector in more detail](hdl/Vetores)] |  [[01](https://hdlbits.01xz.net/wiki/Vector1)]
 
 ## ☞ Sobre HDLBits
 - HDL BIts nada mais é que uma coleção de pequenos exercícios de design de circuitos para praticar o design de hardware digital usando a Verilog Hardware Description Language (HDL). Problemas anteriores seguem um estilo tutorial, enquanto problemas posteriores desafiarão cada vez mais suas habilidades de design de circuito.
