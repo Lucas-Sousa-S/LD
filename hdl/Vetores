@@ -1,5 +1,1 @@
-##Vetores in Verilog language
-
-<p>Vetores são usados para agrupar sinais relacionados usando um nome para torná-lo mais conveniente de manipulação. Por exemplo, o fio [7:0] w; declara um vetor de 8 bits chamado w que é funcionalmente equivalente a ter 8 fios separados.
-Observe que a declaração de um vetor coloca as dimensões antes do nome do vetor, o que é incomum em comparação com a sintaxe C. No entanto, a seleção de peças tem as dimensões após o nome do vetor, como seria de esperar.</p>
 
