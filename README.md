@@ -17,7 +17,7 @@
 
  `Aqui estão os meus exercícios de verilog pelo HDLBits`
 
- -[ Wire One](LD/hdl)
+ -[ Wire One](LD/blob/main/hdl/exercícioUm)
 <br><br><br>
 
 ## ☞ Sobre HDLBits
