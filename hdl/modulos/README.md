@@ -4,7 +4,7 @@
 
 Agora você já está familiarizado com um **módulo**, que é um circuito que interage com seu exterior por meio de **portas de entrada e saída**. Circuitos maiores e mais complexos são construídos pela composição de **módulos maiores a partir de módulos menores** e outras partes (como instruções de atribuição e blocos `always`) conectadas entre si. Isso forma uma **hierarquia**, pois os módulos podem conter instâncias de outros módulos.
 
-Abaixo, temos um exemplo de como criar uma instância de um submódulo dentro de um módulo principal. O módulo fornecido `mod_a` possui três portas: `in1`, `in2` e `out`, e o objetivo é conectá-las às portas do módulo de nível superior: `a`, `b` e `saida`. Além disso, Note que, no exercício, não podemos instanciar o módulo duas vezes com a mesma saída, pois elas estariam em curto.
+Abaixo, temos um exemplo de como criar uma instância de um submódulo dentro de um módulo principal. O módulo fornecido `mod_a` possui três portas: `in1`, `in2` e `out`, e o objetivo é conectá-las às portas do módulo de nível superior: `a`, `b` e `saida`. Além disso, Note que, no [código](hdl/modulos/modulo.v) , não podemos instanciar o módulo duas vezes com a mesma saída, pois elas estariam em curto.
 
 
 ### Definição do submódulo (fornecido):
