@@ -6,8 +6,11 @@ O módulo fornecido é: módulo my_dff (entrada clk, entrada d, saída q);
 Observe que, para fazer as conexões internas, precisei declarar alguns fios. Tenha cuidado ao nomear seus fios e instâncias do módulo: os nomes devem ser únicos.</p>
 
 ## Diagrama de Tempo
-![imagem do Diadrama](https://drive.google.com/file/d/1N92NMJ7Chs4hJ7ZYFo4qF-slm2ylhx1I/view?usp=sharing) <br>
-<img src="https://drive.google.com/file/d/1N92NMJ7Chs4hJ7ZYFo4qF-slm2ylhx1I/view?usp=sharing" alt="imagem do Diadrama">
 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/b17ff28a-e02e-4063-b070-912e9e176f59)" width="300px" />
+</div>
+
+![Image]([https://github.com/user-attachments/assets/b17ff28a-e02e-4063-b070-912e9e176f59](https://github.com/Lucas-Sousa-S/LD/issues/1#issue-3163776573))
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
