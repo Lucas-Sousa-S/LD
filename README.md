@@ -22,6 +22,12 @@ Vetores  |  [[Vector 3](hdl/Vetores/Vectorgates/Vector3.v)] |  [[05](https://hdl
 Vetores  |  [[Vectorr](hdl/Vetores/017_vectorr)] |  [[06](https://hdlbits.01xz.net/wiki/Vectorr)]
 Vetores  |  [[Vector 4](hdl/Vetores/018_vector4.v)] |  [[07](https://hdlbits.01xz.net/wiki/Vector4)]
 Vetores  |  [[Vector 5](hdl/Vetores/019_vector5.v)] |  [[08](https://hdlbits.01xz.net/wiki/Vector5)]
+Módulo  |  [[Module](hdl/modulos/modulo.v)] |  [[09](https://hdlbits.01xz.net/wiki/Module)]
+Módulo  |  [[Module Pos](hdl/modulos/module_pos.v)] |  [[10](https://hdlbits.01xz.net/wiki/Module_pos)]
+Módulo  |  [[Module Shift](hdl/modulos/module_shift)] |  [[11](https://hdlbits.01xz.net/wiki/Module_shift)]
+Módulo  |  [[Module Shift8](hdl/modulos/module_shift8)] |  [[12](https://hdlbits.01xz.net/wiki/Module_shift8)]
+
+
 
 
 ## ☞ Sobre HDLBits
