@@ -12,12 +12,13 @@ add16, provided — Um módulo somador de 16 bits composto por 16 de...
 add1 — Um módulo somador completo de 1 bit.</p>
 
 ## Como eu resolvi
-- Instanciar três módulos my_dff8 em cadeia, criando um registrador de deslocamento de 8 bits de largura e profundidade 3.
-- Implementar um multiplexador 4:1 para escolher entre:
-d (entrada direta, 0 ciclos de atraso)
-Saída após o primeiro my_dff8 (1 ciclo de atraso)
-Saída após o segundo my_dff8 (2 ciclos de atraso)
-Saída após o terceiro my_dff8 (3 ciclos de atraso)
+- Entendi que ```add16``` depende de ```add1```, então o primeiro passo foi criar um somador completo de 1 bit ```(add1)``` com expressões booleanas conhecidas:
+- ```sum = a ^ b ^ cin```
+- ```cout = (a & b) | (a & cin) | (b & cin)```
+- Para o ```top_module```, percebi que a soma de 32 bits deveria ser feita em duas partes de 16 bits:
+A primeira usa ```add16``` com ```cin = 0``` (parte baixa).
+A segunda usa outro ```add1``` com o carry gerado da primeira (parte alta).
+- Por fim, uni os resultados com ```assign sum = {sum_high, sum_low}``` para compor os 32 bits finais, como exige o módulo de topo.
 
 ![Image](https://github.com/user-attachments/assets/7b9240cb-d5dd-4cbd-b8cc-237f28fe9d1d)
 
