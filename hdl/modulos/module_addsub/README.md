@@ -1,15 +1,15 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Module+addsub+%20&fontAlignY=40&color=00bfbf)
 
   Um somador-subtrator pode ser construído a partir de um somador, negando opcionalmente uma das entradas, o que é equivalente a inverter a entrada e depois adicionar 1. O resultado líquido é um circuito que pode fazer duas operações: (a + b + 0) e (a + ~b + 1). 
-Construa o adicionador-subtrator abaixo.<br><br>Você recebe um módulo de soma de 16 bits, foi necessário instanciar duas vezes:<br>
+Construi o adicionador-subtrator abaixo.<br><br>Recebi um módulo de soma de 16 bits, e foi necessário instanciar duas vezes:<br>
 ```module add16 ( input[15:0] a, input[15:0] b, input cin, output[15:0] sum, output cout );``` <br>
-Usando uma porta XOR de 32 bits de largura para inverter a entrada b sempre que sub for 1. (Isso também pode ser visto como b[31:0] XORed com sub replicado 32 vezes. Veja o operador de replicação.). Conectando também a subentrada ao carry-in do somador.
+Usando uma porta XOR de 32 bits de largura para inverter a entrada b sempre que sub for 1. (Isso também pode ser visto como b[31:0] XORed com sub replicado 32 vezes. Conectando também a subentrada ao carry-in do somador.
 
 
 ## Como eu resolvi
-- Use o operador XOR para inverter ```b``` condicionalmente (com base no sinal ```sub```);
-- Conecte o resultado ao somador de 16 bits;
-- Use dois somadores de 16 bits: um para os bits menos significativos (```[15:0]```) e outro para os mais significativos (```[31:16]```);
+- Usando o operador XOR para inverter ```b``` condicionalmente (com base no sinal ```sub```);
+- Conectando o resultado ao somador de 16 bits;
+- Usei dois somadores de 16 bits: um para os bits menos significativos (```[15:0]```) e outro para os mais significativos (```[31:16]```);
 - O ```sub``` também vai como ```cin``` no primeiro somador (para somar o 1 quando estamos subtraindo);
 - O ```cout``` do primeiro somador entra como ```cin``` no segundo.
 
