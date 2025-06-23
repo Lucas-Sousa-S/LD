@@ -26,6 +26,12 @@ Módulo  |  [[Module](hdl/modulos/modulo.v)] |  [[09](https://hdlbits.01xz.net/w
 Módulo  |  [[Module Pos](hdl/modulos/module_pos.v)] |  [[10](https://hdlbits.01xz.net/wiki/Module_pos)]
 Módulo  |  [[Module Shift](hdl/modulos/module_shift)] |  [[11](https://hdlbits.01xz.net/wiki/Module_shift)]
 Módulo  |  [[Module Shift8](hdl/modulos/module_shift8)] |  [[12](https://hdlbits.01xz.net/wiki/Module_shift8)]
+Módulo  |  [[Module Add](hdl/modulos/module_add/module_add.v)] |  [[13](https://hdlbits.01xz.net/wiki/Module_add)]
+Módulo  |  [[Module Fadd](hdl/modulos/module_fadd)] |  [[14](https://hdlbits.01xz.net/wiki/Module_fadd)]
+Módulo  |  [[Module cseladd](hdl/modulos/module_cseladd)] |  [[15](https://hdlbits.01xz.net/wiki/Module_cseladd)]
+Módulo  |  [[Module addsub](hdl/modulos/module_addsub)] |  [[16](https://hdlbits.01xz.net/wiki/Module_addsub)]
+
+
 
 
 
