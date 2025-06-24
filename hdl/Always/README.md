@@ -1,6 +1,6 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Procedures+%20&fontAlignY=40&color=00bfbf)
 
-Procedimentos incluem blocos [always](#always-section), [initial](#initial-section), [task](#task-section) e [function](#function-section). Procedimentos permitem que instruções sequenciais (que não podem ser usadas fora de um procedimento) sejam usadas para descrever o comportamento de um circuito.<br><br>
+Procedimentos incluem blocos [always](#always), [initial](#initial), [task](#task) e [function](#function). Procedimentos permitem que instruções sequenciais (que não podem ser usadas fora de um procedimento) sejam usadas para descrever o comportamento de um circuito.<br><br>
 Em **Verilog**, procedimentos são blocos que permitem descrever comportamentos sequenciais, ou seja, instruções que são executadas em uma determinada ordem (diferente da atribuição contínua ```assign```, que é sempre simultânea). Eles são essenciais para modelar comportamentos que mudam com o tempo ou que dependem de condições específicas.
 
 Os principais tipos de procedimentos são:
