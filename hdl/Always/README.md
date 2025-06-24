@@ -1,29 +1,74 @@
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Module+cseladd+%20&fontAlignY=40&color=00bfbf)
+![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Procedures+%20&fontAlignY=40&color=00bfbf)
 
-Como os circuitos digitais são compostos de portas lógicas conectadas com fios, qualquer circuito pode ser expresso como alguma combinação de módulos e atribuir instruções. No entanto, às vezes essa não é a maneira mais conveniente de descrever o circuito. Os procedimentos (dos quais os blocos são sempre um exemplo) fornecem uma sintaxe alternativa para descrever circuitos.
-Para sintetizar hardware, dois tipos de sempre blocos são relevantes: <br>
-- Combinacional: sempre @(*)
-- Relógio: sempre @(posedge clk)
-  
-Sempre blocos combinacionais são equivalentes a atribuir instruções, portanto, sempre há uma maneira de expressar um circuito combinacional de ambas as maneiras. A escolha entre qual usar é principalmente uma questão de qual sintaxe é mais conveniente. A sintaxe para o código dentro de um bloco de procedimentos é diferente do código que está fora. Os blocos processuais têm um conjunto mais rico de instruções (por exemplo, if-then, case), não podem conter atribuições contínuas*, mas também introduzem muitas novas maneiras não intuitivas de cometer erros. (*Atribuições contínuas processuais existem, mas são um pouco diferentes das atribuições contínuas e não são sintetizáveis.)
-Por exemplo, a atribuição e o bloco combinacional sempre descrevem o mesmo circuito. Ambos criam a mesma bolha de lógica combinacional. Ambos recompalcam a saída sempre que qualquer uma das entradas (lado direito) mudar de valor.<br>
-```assign out1 = a & b | c ^ d;```<br>
-```always @(*) out2 = a & b | c ^ d;```<br><br>
+Procedimentos incluem blocos [always](1-section), [initial](2-section), [task](2-section) e [function](2-section). Procedimentos permitem que instruções sequenciais (que não podem ser usadas fora de um procedimento) sejam usadas para descrever o comportamento de um circuito.<br><br>
+Em **Verilog**, procedimentos são blocos que permitem descrever comportamentos sequenciais, ou seja, instruções que são executadas em uma determinada ordem (diferente da atribuição contínua ```assign```, que é sempre simultânea). Eles são essenciais para modelar comportamentos que mudam com o tempo ou que dependem de condições específicas.
 
-## Como eu resolvi
+Os principais tipos de procedimentos são:
 
+1. **always** (bloco sempre executado)
+Usado para modelar circuitos que reagem a eventos (como bordas de clock ou mudanças em sinais).
 
-![Image](https://github.com/user-attachments/assets/c53bf81a-4a64-4417-b139-a6112b9325cf)
+Exemplo (flip-flop D):
+```
+always @(posedge clk) begin
+    q <= d;
+end
+```
+> Executado sempre que ocorre um evento na lista de sensibilidade (@).
+Pode ser usado para lógica sequencial (com posedge clk) ou combinacional (com *).
+<br> <br>
+2. **initial** (bloco executado uma vez no início da simulação)
+Usado apenas em simulação, não é sintetizável.
 
-## Diagrama de Tempo
+Exemplo:
 
- <br>
+```initial begin
+    a = 0;
+    b = 1;
+end 
+```
 
-<div align="center">
-  
-[![Ir ao problema](https://img.shields.io/badge/Ir%20ao%20problema-00bfbf?style=for-the-badge&logoColor=white&labelColor=00bfbf)](always_block.v)
+> Executado uma única vez no início da simulação.
+<br> <br>
+3. **task** 
+Define um procedimento que pode executar várias ações, com tempo envolvido (```#```, ```@```).
 
-</div>
+Exemplo:
+```
+task automatic reset;
+    begin
+        rst = 1;
+        #5 rst = 0;
+    end
+endtask
+```
+> Pode receber argumentos.
+Pode ter múltiplas instruções e delays.
+Usado para reutilização de código com ações sequenciais.
+<br> <br>
+4. **function**
+Define um procedimento que retorna um valor, mas não pode conter delays ou eventos.
+
+Exemplo:
+```
+function [3:0] mux2;
+    input [3:0] a, b;
+    input sel;
+    begin
+        mux2 = sel ? b : a;
+    end
+endfunction
+```
+
+> Sempre combinacional.
+Apenas um valor de retorno.
+Muito útil em lógica aritmética ou seleção.
+
+<br> <br>
+
+> [!IMPORTANT]
+> Declarações como if, case, for, while só podem ser usadas dentro de blocos procedurais, ou seja, dentro de always, initial, task, ou function. Por isso, eles são essenciais para descrever comportamentos condicionais ou iterativos em um circuito digital.
+
 
 
 
