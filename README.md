@@ -31,6 +31,9 @@ Module  |  [[Module Fadd](hdl/modulos/module_fadd)] |  [[14](https://hdlbits.01x
 Module  |  [[Module cseladd](hdl/modulos/module_cseladd)] |  [[15](https://hdlbits.01xz.net/wiki/Module_cseladd)]
 Module  |  [[Module addsub](hdl/modulos/module_addsub)] |  [[16](https://hdlbits.01xz.net/wiki/Module_addsub)]
 Procedures  |  [[Always Block1](hdl/Always/always_block1)] |  [[17](https://hdlbits.01xz.net/wiki/Alwaysblock1)]
+Procedures  |  [[Always Block2](hdl/Always/always_block2)] |  [[18](https://hdlbits.01xz.net/wiki/Alwaysblock2)]
+Procedures  |  [[Always if](hdl/Always/always_if)] |  [[19](https://hdlbits.01xz.net/wiki/Always_if)]
+Procedures  |  [[Always if2](hdl/Always/always_if2)] |  [[20](https://hdlbits.01xz.net/wiki/Always_if2)]
 
 
 
