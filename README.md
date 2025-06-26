@@ -33,7 +33,7 @@ Module  |  [[Module addsub](hdl/modulos/module_addsub)] |  [[16](https://hdlbits
 Procedures  |  [[Always Block1](hdl/Always/always_block1)] |  [[17](https://hdlbits.01xz.net/wiki/Alwaysblock1)]
 Procedures  |  [[Always Block2](hdl/Always/always_block2)] |  [[18](https://hdlbits.01xz.net/wiki/Alwaysblock2)]
 Procedures  |  [[Always if](hdl/Always/always_if)] |  [[19](https://hdlbits.01xz.net/wiki/Always_if)]
-Procedures  |  [[Always if2](hdl/Always/always_if2)] |  [[20](https://hdlbits.01xz.net/wiki/Always_if2)]
+Procedures  |  [[Always if2](hdl/Always/Always_block2)] |  [[20](https://hdlbits.01xz.net/wiki/Always_if2)]
 
 
 
