@@ -23,7 +23,7 @@ Usando uma instrução de atribuição, um bloco always combinacional e um bloco
 
 <div align="center">
   
-[![Ir ao problema](https://img.shields.io/badge/Ir%20ao%20problema-00bfbf?style=for-the-badge&logoColor=white&labelColor=00bfbf)](always_block2.v)
+[![Ir ao problema](https://img.shields.io/badge/Ir%20ao%20problema-00bfbf?style=for-the-badge&logoColor=white&labelColor=00bfbf)](Always_block2.v)
 
 </div>
 
