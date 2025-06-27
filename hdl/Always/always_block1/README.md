@@ -11,8 +11,7 @@ Por exemplo, a atribuição e o bloco combinacional sempre descrevem o mesmo cir
 ```always @(*) out2 = a & b | c ^ d;```<br><br>
 
 ## Um pouco de prática
-Construa um portão AND usando uma instrução de atribuição e um bloco sempre combinacional. (Como atribuir instruções e combinacional sempre bloqueia a função de forma idêntica, não há como impor que você esteja usando os dois métodos. Mas você está aqui para praticar, certo?...)
-
+Construa um portão AND usando uma instrução de atribuição e um bloco sempre combinacional. (Como atribuir instruções e combinacional sempre bloqueia a função de forma idêntica, não há como impor que você esteja usando os dois métodos. 
 
 
 ![Image](https://github.com/user-attachments/assets/c53bf81a-4a64-4417-b139-a6112b9325cf)
