@@ -25,6 +25,16 @@ Cada item de case pode executar exatamente uma instrução. Por isso, o break qu
 O Verilog também permite itens duplicados ou parcialmente sobrepostos no case. Quando isso acontece, o primeiro item que corresponder é o que será utilizado. Já em C, não é permitido ter itens duplicados em um switch.
 
 Agora, para praticar, estou desenvolvendo um multiplexador 6:1. Quando sel estiver entre 0 e 5, seleciono a entrada de dados correspondente. Para qualquer outro valor, a saída será 0. Todas as entradas e saídas têm 4 bits de largura.
+
+## Diagrama de tempo
+![Image](https://github.com/user-attachments/assets/8fe245de-642e-42c2-8e6e-282feb5724c8)
+
+
+<div align="center">
+  
+[![Ir ao problema](https://img.shields.io/badge/Ir%20ao%20problema-00bfbf?style=for-the-badge&logoColor=white&labelColor=00bfbf)](Always_always_case.v)
+
+</div>
   
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
