@@ -32,7 +32,7 @@ Agora, para praticar, estou desenvolvendo um multiplexador 6:1. Quando sel estiv
 
 <div align="center">
   
-[![Ir ao problema](https://img.shields.io/badge/Ir%20ao%20problema-00bfbf?style=for-the-badge&logoColor=white&labelColor=00bfbf)](Always_always_case.v)
+[![Ir ao problema](https://img.shields.io/badge/Ir%20ao%20problema-00bfbf?style=for-the-badge&logoColor=white&labelColor=00bfbf)](always_case.v)
 
 </div>
   
