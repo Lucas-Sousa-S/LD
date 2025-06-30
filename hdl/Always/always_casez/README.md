@@ -4,7 +4,7 @@
 ## Codificador de Prioridade com casez em Verilog
 Criei um codificador prioritário para entradas de 8 bits. Dado um vetor de 8 bits, a saída deve relatar o primeiro bit (menos significativo) no vetor que for 1. Relato zero se o vetor de entrada não tiver bits altos. Por exemplo, se a entrada for 8'b10010000, a saída será 3'd4, porque o bit[4] é o primeiro bit que está em nível alto.
 
-No exercício anterior [always case2](../always_case2), eu teria que lidar com 256 casos na declaração de case. Percebi que posso reduzir isso (para apenas 9 casos) se os itens da declaração de case aceitarem bits “don’t care”. É justamente para isso que serve o ```casez```: ele trata os bits com valor ```z``` como irrelevantes na comparação.
+No problema anterior [always case2](../always_case2), eu teria que lidar com 256 casos na declaração de case. Percebi que posso reduzir isso (para apenas 9 casos) se os itens da declaração de case aceitarem bits “don’t care”. É justamente para isso que serve o ```casez```: ele trata os bits com valor ```z``` como irrelevantes na comparação.
 
 Por exemplo, isso aqui implementaria o codificador de prioridade de 4 entradas do exercício anterior:
 ```
