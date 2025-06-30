@@ -36,6 +36,8 @@ Procedures  |  [[Always if](hdl/Always/always_if)] |  [[19](https://hdlbits.01xz
 Procedures  |  [[Always if2](hdl/Always/always_if2)] |  [[20](https://hdlbits.01xz.net/wiki/Always_if2)]
 Procedures  |  [[Always case](hdl/Always/always_case)] |  [[21](https://hdlbits.01xz.net/wiki/Always_case)]
 Procedures  |  [[Always case2](hdl/Always/always_case2)] |  [[22](https://hdlbits.01xz.net/wiki/Always_case2)]
+Procedures  |  [[Always casez](hdl/Always/always_casez)] |  [[23](https://hdlbits.01xz.net/wiki/Always_casez)]
+
 
 
 
