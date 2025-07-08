@@ -37,6 +37,7 @@ Procedures  |  [[Always if2](hdl/Always/always_if2)] |  [[20](https://hdlbits.01
 Procedures  |  [[Always case](hdl/Always/always_case)] |  [[21](https://hdlbits.01xz.net/wiki/Always_case)]
 Procedures  |  [[Always case2](hdl/Always/always_case2)] |  [[22](https://hdlbits.01xz.net/wiki/Always_case2)]
 Procedures  |  [[Always casez](hdl/Always/always_casez)] |  [[23](https://hdlbits.01xz.net/wiki/Always_casez)]
+Circuits  |  [[Mux2to1](hdl/circuits/Mux2to1)] |  [[24](https://hdlbits.01xz.net/wiki/Mux2to1)]
 
 
 
