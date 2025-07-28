@@ -5,7 +5,7 @@
 
 Este problema consiste na implementação de um **multiplexador de 1 bit com 2 entradas** em Verilog. O circuito seleciona uma das duas entradas com base em um sinal de controle (`sel`).
 
----
+
 
 ## 🧠 Enunciado do Problema
 
