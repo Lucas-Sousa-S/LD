@@ -33,9 +33,7 @@ valor_decimal = {a, b, c, d}
   assign out_pos = c & (~b | d) & (~a | b);
   ```
 
-#### ✅ Resultado
-
-A implementação atende todos os casos de teste propostos pelo HDLBits, passando 100% dos vetores de simulação.
+Assim a implementação atende todos os casos de teste propostos pelo HDLBits, passando 100% dos vetores de simulação.
 
 #### 📁 Código completo
 
