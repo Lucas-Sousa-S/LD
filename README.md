@@ -39,14 +39,7 @@ Procedures  |  [[Always case2](hdl/Always/always_case2)] |  [[22](https://hdlbit
 Procedures  |  [[Always casez](hdl/Always/always_casez)] |  [[23](https://hdlbits.01xz.net/wiki/Always_casez)]
 Circuits  |  [[Mux2to1](hdl/circuits/Mux2to1)] |  [[24](https://hdlbits.01xz.net/wiki/Mux2to1)]
 Circuits  |  [[Mux2to1v](hdl/circuits/Mux2to1v)] |  [[25](https://hdlbits.01xz.net/wiki/Mux2to1v)]
-
-
-
-
-
-
-
-
+Circuits  |  [[Mux2to1v](hdl/circuits/ece241_2013_q2)] |  [[26](https://hdlbits.01xz.net/wiki/ece241_2013_q2)]
 
 
 ## ☞ Sobre HDLBits
