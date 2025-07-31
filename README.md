@@ -41,7 +41,7 @@ Circuits  |  [[Mux2to1](hdl/circuits/Mux2to1)] |  [[24](https://hdlbits.01xz.net
 Circuits  |  [[Mux2to1v](hdl/circuits/Mux2to1v)] |  [[25](https://hdlbits.01xz.net/wiki/Mux2to1v)]
 Circuits  |  [[2013_q2](hdl/circuits/ece241_2013_q2)] |  [[26](https://hdlbits.01xz.net/wiki/Exams/ece241_2013_q2)]
 Circuits  |  [[2014_q4a](hdl/circuits/2014_q4a)] |  [[27](https://hdlbits.01xz.net/wiki/Exams/2014_q4a)]
-Circuits  |  [[2014_q3](hdl/circuits/ece241_2014_q3)] |  [[28](https://hdlbits.01xz.net/wiki/Exams/m2014_q3)]
+Circuits  |  [[2014_q3](hdl/circuits/2014_q3)] |  [[28](https://hdlbits.01xz.net/wiki/Exams/m2014_q3)]
 Circuits  |  [[k-map_2014_q3](hdl/circuits/ece241_2014_q3)] |  [[29](https://hdlbits.01xz.net/wiki/Exams/ece241_2014_q3)]
 
 ## ☞ Sobre HDLBits
