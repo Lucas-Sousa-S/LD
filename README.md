@@ -40,7 +40,7 @@ Procedures  |  [[Always casez](hdl/Always/always_casez)] |  [[23](https://hdlbit
 Circuits  |  [[Mux2to1](hdl/circuits/Mux2to1)] |  [[24](https://hdlbits.01xz.net/wiki/Mux2to1)]
 Circuits  |  [[Mux2to1v](hdl/circuits/Mux2to1v)] |  [[25](https://hdlbits.01xz.net/wiki/Mux2to1v)]
 Circuits  |  [[2013_q2](hdl/circuits/ece241_2013_q2)] |  [[26](https://hdlbits.01xz.net/wiki/Exams/ece241_2013_q2)]
-
+Circuits  |  [[2014_q4a](hdl/circuits/2014_q4a)] |  [[27](https://hdlbits.01xz.net/wiki/Exams/2014_q4a)]
 
 ## ☞ Sobre HDLBits
 - HDL BIts nada mais é que uma coleção de pequenos exercícios de design de circuitos para praticar o design de hardware digital usando a Verilog Hardware Description Language (HDL). Problemas anteriores seguem um estilo tutorial, enquanto problemas posteriores desafiarão cada vez mais suas habilidades de design de circuito.
