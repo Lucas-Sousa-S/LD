@@ -10,6 +10,20 @@ No meu caso, estou implementando um codificador de prioridade de 4 bits. A lógi
 
 > O uso de literais numéricos hexadecimais (4'hb) ou decimais (4'd11) economizaria a digitação vs. literais binários (4'b1011).
 
+**Descrição simplificada:**  
+- Entrada: `in` (2 bits)  
+- Saída: `out` (1 bit)  
+- Tabela verdade:
+  | in | out |
+  |----|-----|
+  | 00 | 1   |
+  | 01 | 0   |
+  | 10 | 0   |
+  | 11 | 1   |
+
+
+
+
 ## Diagrama de tempo
 ![Image](https://github.com/user-attachments/assets/40723109-9e44-4a76-b49b-1b60bf719f7c)
 
