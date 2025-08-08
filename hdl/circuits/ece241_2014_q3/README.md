@@ -2,10 +2,10 @@
 # 🎛 Multiplexadores como Blocos de Construção Lógicos
 
 > “Se só me dão muxes, construirei minha lógica inteira com muxes.”  
-> Um estudante determinado, sem portas lógicas
+> Um estudante determinado, sem portas lógicas <br>
 
-<img width="200" height="200" alt="Image" src="https://github.com/user-attachments/assets/5e6ca967-41bf-4bec-a05d-9dab579d0d71" />
-
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width="200" height="200" alt="Image" src="https://github.com/user-attachments/assets/5e6ca967-41bf-4bec-a05d-9dab579d0d71" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="200" height="200" alt="Image" src="https://github.com/user-attachments/assets/120f96b4-4760-4628-8c18-99f386d9c89f" />
 
 
