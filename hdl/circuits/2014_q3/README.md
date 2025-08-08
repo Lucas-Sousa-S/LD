@@ -1,8 +1,8 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=2014_q3+%20&fontAlignY=40&color=00bfbf)
 
 
-Estou considerando a função f mostrada no mapa de Karnaugh abaixo. <br>
-<img width="200" height="200" alt="Image" src="https://github.com/user-attachments/assets/2aef23c8-ac13-46f7-9f8e-f346c79cb7b7" /> <br>Vou implementá-la, lembrando que os valores ```d``` são ```don't-cares```, ou seja, posso escolher qualquer valor que for mais conveniente para simplificar a lógica
+Estou considerando a função f mostrada no mapa de Karnaugh abaixo. <br><br>
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="200" height="200" alt="Image" src="https://github.com/user-attachments/assets/2aef23c8-ac13-46f7-9f8e-f346c79cb7b7" /> <br>Vou implementá-la, lembrando que os valores ```d``` são ```don't-cares```, ou seja, posso escolher qualquer valor que for mais conveniente para simplificar a lógica
 
 # 🔍 O Enigma do Mapa de Karnaugh
 
