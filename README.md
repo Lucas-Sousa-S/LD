@@ -1,14 +1,11 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=+Lógica+Digital+:%29)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=+Lógica+Digital+)](https://git.io/typing-svg) 
 
-<p>Bora começar aos aprendizados de ld, aqui estão labs e demais ferramentas para os estudos!</p>
+<p>Bora começar aos aprendizados de ld, aqui estão labs e demais ferramentas para os estudos! Cada pasta representa um marco no aprendizado, que irá culminar em um projeto final que integrará múltiplas competências.
+</p>
 
-
-
-
-
-## ☕︎ Minhas listas
+## ☕︎ Minha lista
 
  `Aqui estão os meus exercícios de verilog pelo HDLBits`
 Tópico       | Meus Arquivos | Link HDLBits
@@ -44,8 +41,40 @@ Circuits  |  [[2014_q4a](hdl/circuits/2014_q4a)] |  [[27](https://hdlbits.01xz.n
 Circuits  |  [[2014_q3](hdl/circuits/2014_q3)] |  [[28](https://hdlbits.01xz.net/wiki/Exams/m2014_q3)]
 Circuits  |  [[k-map_2014_q3](hdl/circuits/ece241_2014_q3)] |  [[29](https://hdlbits.01xz.net/wiki/Exams/ece241_2014_q3)]
 
+## Estrutura do Repositório
+
+A navegação está organizada de forma modular para facilitar a consulta a cada etapa do projeto.
+
+| Pasta                  | Conteúdo                                                               |
+| ---------------------- | ---------------------------------------------------------------------- |
+| `/Experiencia_X`       | Código-fonte (`.v`), testbench e relatório da prática X.     |
+| `/Lista de Exercicios_X` | Resoluções e implementações dos exercícios teóricos.                 |
+| **`/Projeto Final`** | **Implementação completa do projeto final da disciplina.** |
+
+---
+
 ## ☞ Sobre HDLBits
 - HDL BIts nada mais é que uma coleção de pequenos exercícios de design de circuitos para praticar o design de hardware digital usando a Verilog Hardware Description Language (HDL). Problemas anteriores seguem um estilo tutorial, enquanto problemas posteriores desafiarão cada vez mais suas habilidades de design de circuito.
  - [HDLBits — Verilog Practice](https://hdlbits.01xz.net/wiki/Main_Page)
+
+## Como Executar uma Simulação
+
+Para visualizar e simular qualquer uma das experiências, siga os passos:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/Lucas-Sousa-S/LD.git](https://github.com/Lucas-Sousa-S/LD.git)
+    ```
+2.  **Navegue até a pasta** da experiência desejada, por exemplo: `cd LD/Experiencia_5`.
+3.  **Abra o arquivo de projeto do Quartus:** `[nome_do_arquivo].qpf`.
+4.  No Quartus Prime, compile o projeto (Ctrl+L).
+5.  Inicie a simulação (RTL Simulation) para que o ModelSim seja aberto com o testbench da prática.
+
+
+##  Autor
+
+Feito com dedicação e muitos `always @(posedge clk)` por [Lucas Sousa](https://github.com/Lucas-Sousa-S).
+
+---
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
