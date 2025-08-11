@@ -1,0 +1,23 @@
+# Arquivos e pastas gerados pelo Quartus
+*.qws
+*.bak
+*.htm
+*.html
+*.txt
+db/
+output_files/
+simulation/
+incremental_db/
+greybox_tmp/
+*.eqn
+*.pin
+*.sof
+*.pof
+*.summary
+*.rpt
+c5_pin_model_dump.txt
+timing/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
